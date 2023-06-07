@@ -1,487 +1,502 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>DIATENSION - A Diabetes and Hypertension Awareness Website</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <link rel="stylesheet" href="css/index.css">
   <link rel="stylesheet" href="css/hypertension.css">
-  <link href="https://fonts.googleapis.com/css?family=Signika:400" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css?family=Signika:400" rel="stylesheet">
 </head>
+
 <body>
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-        <!-- Brand and toggle get grouped for better mobile display -->
-  
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">	
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="index.html"><img src="img\logoSmall.png" alt="Diatension spelt out written on top of heart"></a>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <!-- Brand and toggle get grouped for better mobile display -->
+
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"><img src="img\logoSmall.png"
+          alt="Diatension spelt out written on top of heart"></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Home<span class="sr-only">(current)</span></a></li>
+
+        <!--LINK ONE-->
+        <li class="dropdown">
+          <a href="about-diabetes.html" role="button" aria-haspopup="true" aria-expanded="false">Diabetes <span
+              class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="about-diabetes/types-of-diabetes.html">Tipe Diabetes</a></li>
+            <li><a href="about-diabetes/diabetes-risks.html">Faktor dan Resiko</a></li>
+            <li><a href="about-diabetes/signs-and-symptoms.html">Tanda dan Gejala</a></li>
+            <li><a href="about-diabetes/treatment-and-medication.html">Penyembuhan dan Pengobatan</a></li>
+          </ul>
+        </li>
+
+        <!--LINK TWO-->
+        <li class="dropdown">
+          <a href="#" role="button" aria-haspopup="true" aria-expanded="false">Diabetes dan Anda<span
+              class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="diabetes-and-you/type1-diabetes.html">Hidup dengan Diabetes Tipe 1</a></li>
+            <li><a href="diabetes-and-you/type2-diabetes.html">Hidup dengan Diabetes Tipe 2</a></li>
+            <li><a href="diabetes-and-you/gestational-diabetes.html">Hidup dengan Diabetes Gestasional</a></li>
+            <li><a href="diabetes-and-you/prediabetes.html">Hidup dengan Prediabetes</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="diabetes-and-you/kids-teens-diabetes.html">Diabetes pada Anak dan Remaja</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="diabetes-and-you/control-diabetes.html">Kendalikan Diabetes</a></li>
+          </ul>
+        </li>
+
+        <!--LINK THREE-->
+        <li class="active"><a href="hypertension.html">Hipertensi</a></li>
+
+
+        <!-- LINK FOUR -->
+        <li class="dropdown">
+          <a href="#" role="button" aria-haspopup="true" aria-expanded="false">Hidup Sehat<span
+              class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="healthy-living/diet-and-nutrition.html">Diet dan Nutrisi</a></li>
+            <li><a href="healthy-living/physical-activity.html">Aktivitas fisik</a></li>
+          </ul>
+        </li>
+
+        <!--LINK FIVE-->
+        <li class="dropdown">
+          <a href="#" role="button" aria-haspopup="true" aria-expanded="false">Alat Kesehatan<span
+              class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="health-tools/bmi-calculator.html">BMI Calculator</a></li>
+            <li><a href="health-tools/calorie-calculator.html">Calorie Calculator</a></li>
+          </ul>
+        </li>
+
+        <li><a href="get-involved.html">Get Involved</a></li>
+      </ul>
+
+      <form class="navbar-form navbar-left">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
         </div>
-  
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav">
-            <li ><a href="index.html">Home<span class="sr-only">(current)</span></a></li>
-  
-            <!--LINK ONE-->
-            <li class="dropdown">
-              <a href="about-diabetes.html"  role="button" aria-haspopup="true" aria-expanded="false">Diabetes <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="about-diabetes/types-of-diabetes.html">Types of Diabetes</a></li>
-                <li><a href="about-diabetes/diabetes-risks.html">Risk Factors</a></li>
-                <li><a href="about-diabetes/signs-and-symptoms.html">Signs/Symptoms</a></li>
-                <li><a href="about-diabetes/treatment-and-medication.html">Treatment/Medications</a></li>
-              </ul>
-            </li>
-  
-            <!--LINK TWO-->
-          <li class="dropdown">
-              <a href="#" role ="button" aria-haspopup="true" aria-expanded="false">Diabetes and You <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="diabetes-and-you/type1-diabetes.html">Living with Type 1</a></li>
-                <li><a href="diabetes-and-you/type2-diabetes.html">Living with Type 2</a></li>
-                <li><a href="diabetes-and-you/gestational-diabetes.html">Living with Gestational Diabetes</a></li>
-                <li><a href="diabetes-and-you/prediabetes.html">Living with Prediabetes</a></li>
-                <li role="separator" class="divider"></li>
-                <li><a href="diabetes-and-you/kids-teens-diabetes.html">Diabetes in Kids and Teens</a></li>
-                <li role="separator" class="divider"></li>
-                <li><a href="diabetes-and-you/control-diabetes.html">Take Control of Diabetes</a></li>
-             </ul>
-           </li>
-  
-              <!--LINK THREE-->
-              <li class="active"><a href="hypertension.html">Hypertension</a></li>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+    <!-- /.navbar-collapse -->
+  </nav>
+  <!-- BODY-CONTENT-->
+  <div class="body-content-about-diabetes body-content-types">
+    <div class="container">
+      <div class="row">
+        <!-- image header-->
+        <img src="img/whoislimos-small.jpg" alt="" class="img-responsive">
+        <div class="col-lg-12 col-md-12 col-xs-12">
+          <div class="col-lg-8">
+            <h2 style="margin-left: -30px;">
+              <br>
+              Menurut Organisasi Kesehatan Dunia, hipertensi bertanggung jawab atas
+              Diperkirakan 45 persen kematian akibat penyakit jantung dan 51 persen kematian akibat penyakit jantung
+              stroke secara global. Menurut laporan status Global WHO tentang tidak menular, dari WHO
+              enam wilayah, wilayah Afrika diperkirakan memiliki prevalensi hipertensi tertinggi
+              pada 46 persen orang dewasa berusia 25 tahun ke atas.
+              <br><br>
+              Dr.Kingsley Akinroye, seorang ahli jantung terkenal dan presiden Nigeria
+              Heart Foundation, NHF, menyesalkan bahwa statistik yang tersedia menunjukkan bahwa 70
+              persen pasien hipertensi pergi berlibur narkoba sementara prevalensi di antara orang Nigeria
+              adalah antara 25 persen dan 40 persen tergantung pada area lokasi.
+            </h2>
+            <br>
+          </div>
+          <div class="col-lg-4">
+            <br><br>
+            <img src="img/blood-pressure-levels.jpg" alt="" class="img-responsive">
 
-  
-              <!-- LINK FOUR -->
-              <li class="dropdown">
-                  <a href="#"  role="button" aria-haspopup="true" aria-expanded="false">Healthy Living <span class="caret"></span></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="healthy-living/diet-and-nutrition.html">Diet and Nutrition</a></li>
-                    <li><a href="healthy-living/physical-activity.html">Physical Activity</a></li>
-                  </ul>
-                </li>
+          </div>
+        </div>
 
-                <!--LINK FIVE-->
-          <li class="dropdown">
-                  <a href="#"  role="button" aria-haspopup="true" aria-expanded="false">Health Tools <span class="caret"></span></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="health-tools/bmi-calculator.html">BMI Calculator</a></li>
-                    <li><a href="health-tools/calorie-calculator.html">Calorie Calculator</a></li>
-                  </ul>
-                </li>
-    
-                <li><a href="get-involved.html">Get Involved</a></li>
+        <p>
+          Hipertensi, juga dikenal sebagai tekanan darah tinggi atau meningkat,
+          adalah suatu kondisi di mana pembuluh darah terus-menerus meningkatkan tekanan.
+          Darah dibawa dari jantung ke seluruh bagian tubuh dalam pembuluh.
+          Setiap kali jantung berdetak, jantung memompa darah ke dalam pembuluh. Tekanan darah adalah
+          diciptakan oleh kekuatan darah mendorong dinding pembuluh darah (arteri) sebagai
+          itu dipompa oleh jantung. Semakin tinggi tekanan, semakin keras jantung harus memompa.
+          <br><br>
+          Arteri yang sempit meningkatkan resistensi.
+          Semakin sempit arteri Anda, semakin tinggi tekanan darah Anda.
+          Dalam jangka panjang, peningkatan tekanan dapat menyebabkan masalah kesehatan, termasuk penyakit jantung.
+          <br>
+          Hipertensi cukup umum dan biasanya berkembang selama beberapa tahun.
+          Biasanya, Anda tidak melihat gejala apa pun. Tapi meski tanpa gejala, tekanan darah tinggi bisa menyebabkan
+          kerusakan pada pembuluh darah dan organ, terutama otak, jantung, mata, dan ginjal.
+          Deteksi dini itu penting. Pembacaan tekanan darah secara teratur dapat membantu Anda dan dokter memperhatikan
+          perubahan apa pun. Jika tekanan darah Anda meningkat, dokter Anda mungkin meminta Anda memeriksa tekanan darah Anda
+          selama beberapa minggu untuk melihat apakah jumlahnya tetap tinggi atau turun kembali ke tingkat normal.
+          Perawatan untuk hipertensi mencakup obat resep dan perubahan gaya hidup sehat.
+          Jika kondisi tersebut tidak diobati, dapat menyebabkan masalah kesehatan, termasuk serangan jantung dan stroke.
+
+        </p>
+
+        <!-- Text header-->
+        <h1>Tanda dan Gejala</h1>
+        <div class="col-lg-12 col-md-12 col-xs-12">
+          <div class="col-lg-8">
+            <p>
+              Hipertensi umumnya merupakan silent condition.
+              Banyak orang tidak akan mengalami gejala apa pun. Itulah mengapa sangat penting untuk memiliki Anda
+              tekanan darah diperiksa secara teratur (selama semua kunjungan ke dokter atau perawat diabetes Anda)
+              dan untuk mengikuti rekomendasi dokter Anda tentang pemantauan tekanan darah di rumah.
+              Mungkin diperlukan waktu bertahun-tahun atau bahkan puluhan tahun untuk mencapai kondisi tersebut
+              cukup parah sehingga gejalanya menjadi jelas. Bahkan kemudian,
+              gejala-gejala ini dapat dikaitkan dengan masalah lain.
+              Gejala hipertensi berat dapat meliputi:
+            <ul>
+              <li>sakit kepala</li>
+              <li>sesak napas</li>
+              <li>mimisan</li>
+              <li>pembilasan</li>
+              <li>pusing</li>
+              <li>nyeri dada</li>
+              <li>perubahan visual</li>
+              <li>darah dalam urin</li>
             </ul>
-
-            <form class="navbar-form navbar-left">
-                  <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Search">
-                  </div>
-                  <button type="submit" class="btn btn-primary">Submit</button>
-            </form>
+            <br>
+            </p>
+          </div>
+          <div class="col-lg-4">
+            <img src="img/Warning.jpg" alt="" class="img-responsive">
+          </div>
         </div>
-        <!-- /.navbar-collapse -->
-    </nav>
-        <!-- BODY-CONTENT--> 
-    <div class = "body-content-about-diabetes body-content-types">
-      <div class="container">
-            <div class="row">
-                <!-- image header-->
-                <img src="img/whoislimos-small.jpg"  alt="" class="img-responsive">
-                <div class="col-lg-12 col-md-12 col-xs-12">
-                    <div class="col-lg-8">
-                        <h2 style="margin-left: -30px;">
-                                <br>
-                        According to the World Health organisation, hypertension is responsible for an 
-                        estimated 45 percent of deaths due to heart disease and 51 percent of deaths due to
-                        stroke globally. According to WHO’s Global status report on non communicable, of WHO’s
-                        six regions, the African region has the highest prevalence of hypertension estimated 
-                        at 46 percent of adults aged 25 and above. 
-                        <br><br>
-                        Dr.Kingsley Akinroye, a renowned cardiologist and president of Nigeria 
-                        Heart Foundation, NHF, regrets that the statistics available have shown that 70 
-                        percent of hypertensive patients go on drug holidays while the prevalence among Nigerians 
-                        is between 25 percent and 40 percent depending on the area of location.   
-                        </h2>
-                        <br>
-                    </div>
-                    <div class="col-lg-4">
-                        <br><br>
-                        <img src="img/blood-pressure-levels.jpg" alt="" class="img-responsive">
-                        
-                    </div>
-                </div>
-                
-                <!-- rest of the text about hypertension      
-                <div class="h1">     
-                <h1> 
-                    ABOUT HYPERTENSION 
-                </h1>
-            </div>   -->
-                
-                <p>
-                    Hypertension, also known as high or raised blood pressure,
-                    is a condition in which the blood vessels have persistently raised pressure. 
-                    Blood is carried from the heart to all parts of the body in the vessels. 
-                    Each time the heart beats, it pumps blood into the vessels. Blood pressure is 
-                    created by the force of blood pushing against the walls of blood vessels (arteries) as 
-                    it is pumped by the heart. The higher the pressure the harder the heart has to pump.
-                    <br><br>
-                    Narrow arteries increase resistance. 
-                    The narrower your arteries are, the higher your blood pressure will be. 
-                    Over the long term, increased pressure can cause health issues, including heart disease.
-                    <br>
-                    Hypertension is quite common and it typically develops over the course of several years. 
-                    Usually, you don’t notice any symptoms. But even without symptoms, high blood pressure can cause 
-                    damage to your blood vessels and organs, especially the brain, heart, eyes, and kidneys.
-                    Early detection is important. Regular blood pressure readings can help you and your doctor notice 
-                    any changes. If your blood pressure is elevated, your doctor may have you check your blood pressure
-                    over a few weeks to see if the number stays elevated or falls back to normal levels.
-                    Treatment for hypertension includes both prescription medication and healthy lifestyle changes. 
-                    If the condition isn’t treated, it could lead to health issues, including heart attack and stroke.
-                    
-                </p>
-            
-                <!-- Text header-->
-                <h1>SIGNS AND SYMPTOMS</h1>
-                <div class="col-lg-12 col-md-12 col-xs-12">
-                        <div class="col-lg-8">
-                        <p>
-                                Hypertension is generally a silent condition. 
-                                Many people won’t experience any symptoms. That's why it's so important to have your 
-                                blood pressure checked on a regular basis (during all visits to your doctor or diabetes nurse) 
-                                and to follow your doctor’s recommendations on home blood pressure monitoring.
-                                It may take years or even decades for the condition to reach levels 
-                                severe enough that symptoms become obvious. Even then, 
-                                these symptoms may be attributed to other issues.
-                                Symptoms of severe hypertension can include:
-                                <ul>
-                                    <li>headaches</li>
-                                    <li>shortness of breath</li>
-                                    <li>nosebleeds</li>
-                                    <li>flushing</li>
-                                    <li>dizziness</li>
-                                    <li>chest pain</li>
-                                    <li>visual changes</li>
-                                    <li>blood in the urine</li>
-                                </ul>
-                                <br>
-                        </p>
-                        </div>
-                        <div class="col-lg-4">
-                            <img src="img/Warning.jpg" alt="" class="img-responsive">
-                        </div>
-                </div>
-                <!-- rest of signs and symptoms text-->
-                <p>
-                        These symptoms require immediate medical attention. They don’t occur in everyone with hypertension, 
-                        but waiting for a symptom of this condition to appear could be fatal.
-                        <br><br>
-                        If you have a family history of heart disease or have risk factors for developing the condition, 
-                        your doctor may recommend that you have your blood pressure checked twice a year. 
-                        This helps you and your doctor stay on top of any possible issues before they become problematic
-                        </p>
-                        <h3>
-                            When is it high blood pressure?
-                        </h3>
-                            <p>
-                                If you have high blood pressure, it means that your blood is pumping through your heart and blood vessels with too much force. 
-                                Over time, consistently high blood pressure tires the heart muscle and can enlarge.
-                                In the general population and in people with diabetes, a blood pressure reading of less 
-                                than 120/80 mm Hg is considered normal.<br>
-                                What does this mean? The first number (120) is called the systolic pressure. It indicates 
-                                the highest pressure exerted as blood pushes through your heart. The second number (80) is 
-                                called the diastolic pressure. This is the pressure maintained by the arteries when the vessels 
-                                are relaxed between heartbeats.
+        <!-- rest of signs and symptoms text-->
+        <p>
+          Gejala-gejala ini memerlukan perhatian medis segera. Mereka tidak terjadi pada semua orang dengan hipertensi,
+          tetapi menunggu gejala kondisi ini muncul bisa berakibat fatal.
+          <br><br>
+          Jika Anda memiliki riwayat keluarga penyakit jantung atau memiliki faktor risiko untuk mengembangkan kondisi tersebut,
+          dokter Anda mungkin menyarankan agar Anda memeriksakan tekanan darah Anda dua kali setahun.
+          Ini membantu Anda dan dokter Anda tetap mengetahui masalah yang mungkin terjadi sebelum menjadi masalah
+        </p>
+        <h3>
+          Kapan tekanan darah tinggi?
+        </h3>
+        <p>
+          Jika Anda memiliki tekanan darah tinggi, itu berarti darah Anda dipompa melalui jantung dan pembuluh darah Anda
+          terlalu banyak kekuatan.
+          Seiring waktu, tekanan darah tinggi secara konsisten melelahkan otot jantung dan dapat membesar.
+          Pada populasi umum dan pada penderita diabetes, pembacaan tekanan darah kurang
+          dari 120/80 mm Hg dianggap normal.<br>
+          Apa artinya ini? Angka pertama (120) disebut tekanan sistolik. Ini menunjukkan
+          tekanan tertinggi yang diberikan saat darah mendorong melalui jantung Anda. Angka kedua (80) adalah
+          disebut tekanan diastolik. Ini adalah tekanan yang dipertahankan oleh arteri saat pembuluh
+          santai di antara detak jantung.
 
-                            </p>
-                        <br>
-                        <h3>
-                            High blood pressure during pregnancy
-                        </h3>
-                            <p>
-                                An older study from 2003 has shown that women who have gestational diabetes are more likely 
-                                to have high blood pressure. However, women who manage their
-                                blood sugar levels during pregnancy are less likely to experience high blood pressure.
-                                <br><br>
-                                If you develop high blood pressure during pregnancy, your doctor will monitor your urine protein levels. High urine protein levels may be a sign of preeclampsia. This is a type of high blood pressure that occurs during pregnancy. 
-                                Other markers in the blood may also lead to a diagnosis. These markers include:
-                                    <ul>
-                                        <li>abnormal liver enzymes</li>
-                                        <li>abnormal kidney function</li>
-                                        <li>low platelet count</li>
-                                    </ul>
-                                <br><br>
-                                Women with hypertension can deliver healthy babies despite having the condition. 
-                                But it can be dangerous to both mother and baby 
-                                if it’s not monitored closely and managed during the pregnancy.
-                                <br><br>
-                                Women with high blood pressure are more likely to develop complications.
-                                 For example, pregnant women with hypertension may experience decreased kidney function. 
-                                Babies born to mothers with hypertension may have a low birth weight or be born prematurely.
-                                <br><br>
-                                Women with high blood pressure are more likely to develop complications. 
-                                For example, pregnant women with hypertension may experience decreased kidney function. 
-                                Babies born to mothers with hypertension may have a low birth weight or be born prematurely.
-                                <br><br>
-                                Some women may develop hypertension during their pregnancies. Several types of high blood 
-                                pressure problems can develop. 
-                                The condition often reverses itself once the baby is born. 
-                                Developing hypertension during pregnancy may increase your risk for developing 
-                                hypertension later in life.
-                                <br><br>
-                                <h5>
-                                        Preeclampsia
-                                </h5>
-                                In some cases, pregnant women with hypertension may develop preeclampsia during their pregnancy. 
-                                This condition of increased blood pressure can cause kidney and other organ complications. This can result in high protein levels in the urine, problems with liver function, fluid in the lungs, or visual problems.
-                                As this condition worsens, the risks increase for the mother and baby. Preeclampsia can lead 
-                                to eclampsia, which causes seizures. High blood pressure problems in pregnancy remain an important 
-                                cause of maternal death in the United States. Complications for the baby include low birth weight, 
-                                early birth, and stillbirth.
-                                There is no known way to prevent preeclampsia, and the only way to treat the condition is to deliver 
-                                the baby. If you develop this condition during your pregnancy, your doctor will closely monitor you 
-                                for complications.
-                            </p>
-                
-                <!--Text header for complications-->
-                <h1> COMPLICATIONS OF HYPERTENSION</h1>  
-                <div class="col-lg-12 col-md-12 col-xs-12">
-                        <div class="col-lg-8 margin-hyper">
-                            <h3>
-                                What are the effects of high blood pressure on the body?
-                            </h3>
-                                <p>
-                                    Because hypertension is often a silent condition, it can cause damage to your body for years before 
-                                    symptoms
-                                     become obvious. If hypertension isn’t treated, you may face serious, even fatal, complications.
-                                </p>    
-                        </div>
-                        <div class="col-lg-4">
-                            <img   src="img/Danger.jpg" alt="" class="img-responsive">
-                        </div>
-                </div>
-                <!-- rest of complications text-->
-                <h3>Complications of hypertension include the following:</h3>
-                    <h5>
-                        Damaged arteries
-                    </h5>
-                                    <p>
-                                        Healthy arteries are flexible and strong. Blood flows freely and unobstructed through healthy arteries and vessels.
-                                        <br>
-                                        Hypertension makes arteries tougher, tighter, and less elastic. This damage makes it easier for 
-                                        dietary fats to 
-                                        deposit in your arteries and restrict blood flow. This damage can lead to increased blood pressure, 
-                                        blockages, and, eventually, heart attack and stroke.
-                                        <br><br>
-                                        <h5>
-                                            Damaged heart
-                                        </h5>
-                                        
-                                        Hypertension makes your heart work too hard. 
-                                        The increased pressure in your blood vessels forces your 
-                                        heart’s muscles to pump more frequently and with more force than a healthy heart should have to.
-                                        <br><br>
-                                        This may cause an enlarged heart. An enlarged heart increases your risk for the following:
-                                        <ul>
-                                            <li>heart failure</li>
-                                            <li>arrhythmias</li>
-                                            <li>sudden cardiac death</li>
-                                            <li>heart attack</li>
-                                        </ul>
-                                        <br>
-                                        <h5>
-                                            Damaged brain
-                                        </h5>
-                                        Your brain relies on a healthy supply of oxygen-rich blood to work properly. 
-                                        High blood pressure can reduce your brain’s supply of blood:
-                                            <ul>
-                                                <li>Temporary blockages of blood flow to the brain are called transient ischemic attacks (TIAs).</li>
-                                                <li>Significant blockages of blood flow cause brain cells to die. This is known as a stroke.</li>
-                                            </ul>   
-                                        Uncontrolled hypertension may also affect your memory and ability to learn, recall, 
-                                        speak, and reason. Treating hypertension often doesn’t erase or reverse the effects of 
-                                        uncontrolled hypertension. It does, however, lower the risks for future problems.
-                                </p>
-                                
-                <h1>TIPS FOR PREVENTION</h1>
-                <!-- text header for tips for prevention-->
-                <div class="col-lg-12 col-md-12 col-xs-12 margin-hyper">
-                        <div class="col-lg-8">
-                        <h4>
-                             If you have risk factors for hypertension, you can take steps now to lower your risk for the condition and its complications.
-                        </h4>
-                            <h5>
-                                Add healthy foods to your diet
-                            </h5>
-                                <p>
-                                    Slowly work your way up to eating more servings of heart-healthy plants. 
-                                    Aim to eat more than seven servings of fruits and vegetables each day. 
-                                    Then aim to add one more serving per day for two weeks. 
-                                    After those two weeks, aim to add one more serving. 
-                                    The goal is to have ten servings of fruits and vegetables per day.
-                                </p>
-                            
-                        </div>
-                        <div class="col-lg-4">
-                            <img src="img/Normal.jpg" alt="" class="img-responsive"
-                        </div>
-                </div>
-                <!-- rest of tips text-->
-                    <h5>
-                        Adjust how you think of the average dinner plate
-                    </h5>
-                        <p>
-                            Instead of having meat and three sides, create a dish that uses meat as a condiment. 
-                            In other words, instead of eating a steak with a side salad, eat a bigger salad and top it 
-                            with a smaller portion of steak.
-                        </p>
-                    <h5>
-                        Cut sugar
-                    </h5>
-                        <p>
-                            Try to incorporate fewer sugar-sweetened foods, including flavored yogurts, 
-                            cereals, and sodas. Packaged foods hide unnecessary sugar, so be sure to read labels.
-                        </p>
-                    <h5>
-                         Set weight loss goals
-                    </h5>
-                        <p>
-                          Instead of an arbitrary goal to “lose weight,” talk with your doctor about a healthy weight for you.  
-                          Then decide on what physical activity you can start in order to reach that goal. 
-                          If exercising five nights a week is too hard to work into your schedule, aim for one more night than what you’re doing right now. 
-                          When that fits comfortably into your schedule, add another night.
-                        </p>
-                    <h5>
-                        Monitor your blood pressure regularly
-                    </h5>
-                        <p>
-                            The best way to prevent complications and avoid problems is to catch hypertension early. 
-                            You can come into your doctor’s office for a blood pressure reading, or your doctor may ask you to 
-                            purchase a blood pressure cuff and take readings at home.
+        </p>
+        <br>
+        <h3>
+          Tekanan darah tinggi selama kehamilan
+        </h3>
+        <p>
+          Sebuah studi yang lebih tua dari tahun 2003 menunjukkan bahwa wanita yang menderita diabetes gestasional lebih mungkin
+          untuk memiliki tekanan darah tinggi. Namun, wanita yang mengelola mereka
+          kadar gula darah selama kehamilan cenderung tidak mengalami tekanan darah tinggi.
+          <br><br>
+          Jika Anda mengalami tekanan darah tinggi selama kehamilan, dokter Anda akan memantau kadar protein urin Anda. Tinggi
+          kadar protein urin mungkin merupakan tanda preeklampsia. Ini adalah jenis tekanan darah tinggi yang terjadi selama
+          kehamilan.
+          Penanda lain dalam darah juga dapat mengarah pada diagnosis. Penanda ini meliputi:
+        <ul>
+          <li>enzim hati abnormal</li>
+          <li>fungsi ginjal yang tidak normal</li>
+          <li>jumlah trombosit rendah</li>
+        </ul>
+        <br><br>
+        Wanita dengan hipertensi dapat melahirkan bayi yang sehat meskipun memiliki kondisi tersebut.
+        Tapi itu bisa berbahaya bagi ibu dan bayinya
+        jika tidak dipantau secara ketat dan dikelola selama kehamilan.
+        <br><br>
+        Wanita dengan tekanan darah tinggi lebih mungkin mengalami komplikasi.
+        Misalnya, ibu hamil dengan hipertensi dapat mengalami penurunan fungsi ginjal.
+        Bayi yang lahir dari ibu dengan hipertensi mungkin memiliki berat lahir rendah atau lahir prematur.
+        <br><br>
+        Wanita dengan tekanan darah tinggi lebih mungkin mengalami komplikasi.
+        Misalnya, ibu hamil dengan hipertensi dapat mengalami penurunan fungsi ginjal.
+        Bayi yang lahir dari ibu dengan hipertensi mungkin memiliki berat lahir rendah atau lahir prematur.
+        <br><br>
+        Beberapa wanita mungkin mengalami hipertensi selama kehamilan mereka. Beberapa jenis darah tinggi
+        masalah tekanan dapat berkembang.
+        Kondisi ini sering berbalik sendiri setelah bayi lahir.
+        Mengembangkan hipertensi selama kehamilan dapat meningkatkan risiko Anda untuk berkembang
+        hipertensi di kemudian hari.
+        <br><br>
+        <h5>
+          Preeklampsia
+        </h5>
+        Dalam beberapa kasus, wanita hamil dengan hipertensi dapat mengalami preeklampsia selama kehamilannya.
+        Kondisi peningkatan tekanan darah ini dapat menyebabkan komplikasi ginjal dan organ lainnya. Hal ini dapat mengakibatkan
+        kadar protein tinggi dalam urin, masalah dengan fungsi hati, cairan di paru-paru, atau masalah penglihatan.
+        Saat kondisi ini memburuk, risiko ibu dan bayi meningkat. Preeklampsia dapat menyebabkan
+        eklamsia yang menyebabkan kejang. Masalah tekanan darah tinggi pada kehamilan tetap penting
+        penyebab kematian ibu di Amerika Serikat. Komplikasi untuk bayi termasuk berat badan lahir rendah,
+        lahir prematur, dan lahir mati.
+        Tidak ada cara yang diketahui untuk mencegah preeklampsia, dan satu-satunya cara untuk mengobati kondisi tersebut adalah dengan melahirkan
+        bayi. Jika Anda mengalami kondisi ini selama kehamilan, dokter Anda akan memantau Anda dengan cermat
+        untuk komplikasi.
+        </p>
 
-                            Keep a log of your blood pressure readings and take it to your regular doctor appointments.
-                            This can help your doctor see any possible problems before the condition advances.
-                        </p>                
-                <h1>TREATMENT AND MEDICATION</h1>                        
-                <!-- text-header for treatment and med-->
-                <div class="col-lg-12 col-md-12 col-xs-12  margin-hyper">
-                        <div class="col-lg-8">
-                            <h3>
-                                How is high blood pressure treated?
-                            </h3>
-                                <p>
-                                    ACE (angiotensin converting enzyme) inhibitors are a group of drugs that are often used to treat high blood pressure in people with diabetes. Although other high blood pressure medications are available, ACE inhibitors have been shown to not only to be a useful drug to treat high blood pressure, but have been shown to prevent or delay the progression of kidney disease in people with diabetes.
-
-                                    Other medications used to treat high blood pressure in people with diabetes include a class of drugs called diuretics (‘water pills’).
-                                        
-                                    Because adequate control of blood pressure usually requires more than one medication, most doctors use ACE inhibitors first then add other anti-hypertension drugs if necessary.
-                                        
-                                </p>
-                        </div>
-                        <div class="col-lg-4">
-                            <img src="img/blood-pressure-set.jpg" alt="" class="img-responsive">
-                        </div>
-                </div>
-                <h3>Home remedies for blood pressure</h3>
-                    <p>
-                        Healthy lifestyle changes can help you control the factors that cause hypertension. 
-                        Here are some of the most common home remedies:
-                        <br>
-                        <h5>
-                            Developing a healthy diet
-                        </h5>
-                            A heart-healthy diet is vital for helping to reduce high blood pressure. It’s also important for managing hypertension that is under control and reducing the risk of complications. 
-                            These complications include heart disease, stroke, and heart attack.
-                            <br><br>
-                            A heart-healthy diet emphasizes foods that include:
-                            <ul>
-                                <li>fruits</li>
-                                <li>vegetables</li>
-                                <li>whole grains</li>
-                            </ul>
-                        <h5>
-                             Increasing physical activity
-                        </h5>
-                        Reaching a healthy weight should include being more physically active. 
-                        In addition to helping you shed pounds, exercise can help reduce stress, 
-                        lower blood pressure naturally, and strengthen your cardiovascular system.
-                        <br><br>
-                        Aim to get 150 minutes of moderate physical activity each week. 
-                        That’s about 30 minutes five times per week.
-                        <h5>
-                            Reaching a healthy weight
-                        </h5>
-                        If you are overweight or obese, losing weight through a heart-healthy diet and 
-                        increased physical activity can help lower your blood pressure.
-                        <h5>
-                            Managing stress
-                        </h5>
-                        Exercise is a great way to manage stress. Other activities can also be helpful. 
-                        These include: <br><br>
-                        <ul>
-                            <li>meditation</li>
-                            <li>deep breathing</li>
-                            <li>massage</li>
-                            <li>muscle relaxation</li>
-                            <li>yoga or tai chi</li>
-                        </ul>
-                        These are all proven stress-reducing techniques.
-                        Getting adequate sleep can also help reduce stress levels.
-                        
-                                  
-                    </p>
-                </div>
-                <!-- closing statement-->
-                <div class="col-lg-12 col-md-12 col-xs-12  margin-hyper">
-                                <div class="col-lg-8">
-                                        <h5>
-                                                Adopting a cleaner lifestyle
-                                        </h5>
-                                        <p>
-                                            If you’re a smoker, try to quit. 
-                                            The chemicals in tobacco smoke damage the body’s tissues and harden blood vessel walls.
-                                            <br><br>
-                                            If you regularly consume too much alcohol or have an alcohol dependency, 
-                                            seek help to reduce the amount you drink or stop altogether. 
-                                            Alcohol can raise blood pressure.
-                                            If you have diabetes, your doctor may check your blood pressure at least four times each year. 
-                                            If you have diabetes and high blood pressure, it is recommended that you self-monitor at home, record the readings, 
-                                            and share them with your doctor or visit the nearest clinic for checkup.      
-                                        </p>
-                                </div>
-                                <div class="col-lg-4 ">
-                                    <img src="img/lady-laughing.jpg" alt="" class="img-responsive">
-                                </div>
-                </div>
-            </div>
-            <class ="row">
-                    <div id="related-content">
-                            <hr>
-                            <h6>
-                               Related Contents
-                            </h6>
-                                <ul>
-                                    <li><a href="healthy-living/diet-and-nutrition.html">Diet & Nutrition</a></li>
-                                    <li><a href="health-tools/bmi-calculator">BMI Calculator </a></li>
-                                    <li><a href="healthy-living/physical-activity.html">Physical Activity </a></li>
-                                    <li><a href="diabetes-hypertension-link.html">Link between Diabetes & Hypertension </a> </a></li>
-
-                                </ul>
-                          </div>
-            </class>
-            </div>
+        <!--Text header for complications-->
+        <h1> KOMPLIKASI HIPERTENSI</h1>
+        <div class="col-lg-12 col-md-12 col-xs-12">
+          <div class="col-lg-8 margin-hyper">
+            <h3>
+              Apa saja dampak tekanan darah tinggi bagi tubuh?
+            </h3>
+            <p>
+              Karena hipertensi seringkali merupakan kondisi diam, maka dapat menyebabkan kerusakan pada tubuh Anda bertahun-tahun sebelumnya
+              gejala
+              menjadi jelas. Jika hipertensi tidak diobati, Anda mungkin menghadapi komplikasi yang serius, bahkan fatal.
+            </p>
+          </div>
+          <div class="col-lg-4">
+            <img src="img/Danger.jpg" alt="" class="img-responsive">
+          </div>
         </div>
-      </div> 
-    <div class="footer-section">
+        <!-- rest of complications text-->
+        <h3>Komplikasi hipertensi meliputi hal-hal berikut:</h3>
+        <h5>
+          Arteri yang rusak
+        </h5>
+        <p>
+          Arteri yang sehat fleksibel dan kuat. Darah mengalir dengan bebas dan tidak terhalang melalui arteri yang sehat dan
+          pembuluh.
+          <br>
+          Hipertensi membuat arteri lebih keras, lebih kencang, dan kurang elastis. Kerusakan ini membuatnya lebih mudah untuk
+          lemak makanan untuk
+          deposito di arteri Anda dan membatasi aliran darah. Kerusakan ini dapat menyebabkan peningkatan tekanan darah,
+          penyumbatan, dan, akhirnya, serangan jantung dan stroke.
+          <br><br>
+        <h5>
+          Hati yang rusak
+        </h5>
+
+        Hipertensi membuat jantung Anda bekerja terlalu keras.
+        Peningkatan tekanan dalam pembuluh darah Anda memaksa Anda
+        otot jantung untuk memompa lebih sering dan dengan kekuatan lebih dari yang seharusnya dimiliki oleh jantung yang sehat.
+        <br><br>
+        Ini dapat menyebabkan pembesaran jantung. Jantung yang membesar meningkatkan risiko Anda untuk hal-hal berikut:
+        <ul>
+          <li>gagal jantung</li>
+          <li>aritmia</li>
+          <li>kematian jantung mendadak</li>
+          <li>serangan jantung</li>
+        </ul>
+        <br>
+        <h5>
+          Otak rusak
+        </h5>
+        Otak Anda bergantung pada pasokan darah kaya oksigen yang sehat untuk bekerja dengan baik.
+        Tekanan darah tinggi dapat mengurangi suplai darah ke otak Anda:
+        <ul>
+          <li>Penyumbatan sementara aliran darah ke otak disebut serangan iskemik transien (TIA).</li>
+          <li>Penyumbatan aliran darah yang signifikan menyebabkan sel-sel otak mati. Ini dikenal sebagai stroke.</li>
+        </ul>
+        Hipertensi yang tidak terkontrol juga dapat memengaruhi ingatan dan kemampuan Anda untuk belajar, mengingat,
+        berbicara, dan alasan. Mengobati hipertensi seringkali tidak menghapus atau membalikkan efeknya
+        hipertensi yang tidak terkontrol. Namun, itu menurunkan risiko untuk masalah di masa depan.
+        </p>
+
+        <h1>TIPS PENCEGAHAN</h1>
+        <!-- text header for tips for prevention-->
+        <div class="col-lg-12 col-md-12 col-xs-12 margin-hyper">
+          <div class="col-lg-8">
+            <h4>
+              Jika Anda memiliki faktor risiko hipertensi, Anda dapat mengambil langkah sekarang untuk menurunkan risiko kondisi dan
+              komplikasinya.
+            </h4>
+            <h5>
+              Tambahkan makanan sehat ke dalam diet Anda
+            </h5>
+            <p>
+              Perlahan tingkatkan diri Anda untuk makan lebih banyak porsi tanaman yang menyehatkan jantung.
+              Bertujuan untuk makan lebih dari tujuh porsi buah dan sayuran setiap hari.
+              Kemudian targetkan untuk menambahkan satu porsi lagi per hari selama dua minggu.
+              Setelah dua minggu itu, usahakan untuk menambah satu porsi lagi.
+              Tujuannya adalah untuk memiliki sepuluh porsi buah dan sayuran per hari.
+            </p>
+
+          </div>
+          <div class="col-lg-4">
+            <img src="img/Normal.jpg" alt="" class="img-responsive" </div>
+          </div>
+          <!-- rest of tips text-->
+          <h5>
+            Sesuaikan pendapat Anda tentang piring makan rata-rata
+          </h5>
+          <p>
+            Alih-alih memiliki daging dan tiga sisi, buatlah hidangan yang menggunakan daging sebagai bumbu.
+            Dengan kata lain, alih-alih makan steak dengan salad pendamping, makanlah salad yang lebih besar dan beri topping
+            dengan porsi steak yang lebih kecil.
+          </p>
+          <h5>
+            Potong gula
+          </h5>
+          <p>
+            Cobalah untuk memasukkan lebih sedikit makanan yang dimaniskan dengan gula, termasuk yogurt beraroma,
+            sereal, dan soda. Makanan kemasan menyembunyikan gula yang tidak perlu, jadi pastikan untuk membaca labelnya.
+          </p>
+          <h5>
+            Tetapkan tujuan penurunan berat badan
+          </h5>
+          <p>
+            Alih-alih tujuan sewenang-wenang untuk "menurunkan berat badan", bicarakan dengan dokter Anda tentang berat badan yang sehat untuk Anda.
+            Kemudian putuskan aktivitas fisik apa yang dapat Anda mulai untuk mencapai tujuan itu.
+            Jika berolahraga lima malam dalam seminggu terlalu sulit untuk dimasukkan ke dalam jadwal Anda, targetkan satu malam lebih banyak dari sebelumnya
+            Anda lakukan sekarang.
+            Ketika itu cocok dengan jadwal Anda, tambahkan satu malam lagi.
+          </p>
+          <h5>
+            Pantau tekanan darah Anda secara teratur
+          </h5>
+          <p>
+            Cara terbaik untuk mencegah komplikasi dan menghindari masalah adalah dengan mengetahui hipertensi sejak dini.
+            Anda dapat datang ke kantor dokter Anda untuk membaca tekanan darah, atau dokter Anda mungkin meminta Anda melakukannya
+            beli manset tekanan darah dan lakukan pembacaan di rumah.
+
+            Simpan log pembacaan tekanan darah Anda dan bawa ke janji temu dokter rutin Anda.
+            Ini dapat membantu dokter Anda melihat kemungkinan masalah sebelum kondisinya berlanjut.
+          </p>
+          <h1>PENYEMBUHAN DAN PENGOBATAN</h1>
+          <!-- text-header for treatment and med-->
+          <div class="col-lg-12 col-md-12 col-xs-12  margin-hyper">
+            <div class="col-lg-8">
+              <h3>
+                Bagaimana cara mengobati tekanan darah tinggi?
+              </h3>
+              <p>
+                Penghambat ACE (angiotensin converting enzyme) adalah kelompok obat yang sering digunakan untuk mengobati tinggi
+                tekanan darah pada penderita diabetes. Meskipun obat tekanan darah tinggi lainnya tersedia,
+                Penghambat ACE telah terbukti tidak hanya menjadi obat yang berguna untuk mengobati tekanan darah tinggi, tetapi memiliki
+                terbukti mencegah atau menunda perkembangan penyakit ginjal pada penderita diabetes.
+
+                Obat lain yang digunakan untuk mengobati tekanan darah tinggi pada penderita diabetes termasuk golongan obat
+                disebut diuretik ('pil air').
+
+                Karena kontrol tekanan darah yang memadai biasanya membutuhkan lebih dari satu obat, kebanyakan dokter menggunakan
+                Penghambat ACE terlebih dahulu kemudian tambahkan obat antihipertensi lain bila perlu.
+
+              </p>
+            </div>
+            <div class="col-lg-4">
+              <img src="img/blood-pressure-set.jpg" alt="" class="img-responsive">
+            </div>
+          </div>
+          <h3>Pengobatan rumahan untuk tekanan darah</h3>
+          <p>
+            Perubahan gaya hidup sehat dapat membantu Anda mengontrol faktor-faktor penyebab hipertensi.
+            Berikut adalah beberapa pengobatan rumahan yang paling umum:
+            <br>
+          <h5>
+            Mengembangkan pola makan yang sehat
+          </h5>
+          Diet jantung sehat sangat penting untuk membantu mengurangi tekanan darah tinggi. Ini juga penting untuk mengelola
+          hipertensi yang terkendali dan mengurangi risiko komplikasi.
+          Komplikasi ini termasuk penyakit jantung, stroke, dan serangan jantung.
+          <br><br>
+          Diet jantung sehat menekankan makanan yang meliputi:
+          <ul>
+            <li>buah-buahan</li>
+            <li>sayuran</li>
+            <li>biji-bijian utuh</li>
+          </ul>
+          <h5>
+            Meningkatkan aktivitas fisik
+          </h5>
+          Mencapai berat badan yang sehat harus mencakup lebih aktif secara fisik.
+          Selain membantu menurunkan berat badan, olahraga dapat membantu mengurangi stres,
+          menurunkan tekanan darah secara alami, dan memperkuat sistem kardiovaskular Anda.
+          <br><br>
+          Bertujuan untuk mendapatkan 150 menit aktivitas fisik sedang setiap minggu.
+          Itu sekitar 30 menit lima kali per minggu.
+          <h5>
+            Mencapai berat badan yang sehat
+          </h5>
+          Jika Anda kelebihan berat badan atau obesitas, turunkan berat badan melalui diet jantung sehat dan
+          peningkatan aktivitas fisik dapat membantu menurunkan tekanan darah Anda.
+          <h5>
+            Mengelola stres
+          </h5>
+          Olahraga adalah cara yang bagus untuk mengelola stres. Kegiatan lain juga bisa membantu.
+          Ini termasuk: <br><br>
+          <ul>
+            <li>meditasi</li>
+            <li>pernapasan dalam</li>
+            <li>pijat</li>
+            <li>relaksasi otot</li>
+            <li>yoga atau tai chi</li>
+          </ul>
+          Ini semua adalah teknik pengurangan stres yang terbukti.
+          Tidur yang cukup juga dapat membantu mengurangi tingkat stres.
+
+
+          </p>
+        </div>
+        <!-- closing statement-->
+        <div class="col-lg-12 col-md-12 col-xs-12  margin-hyper">
+          <div class="col-lg-8">
+            <h5>
+              Mengadopsi gaya hidup bersih
+            </h5>
+            <p>
+              Jika Anda seorang perokok, cobalah untuk berhenti.
+              Bahan kimia dalam asap tembakau merusak jaringan tubuh dan mengeraskan dinding pembuluh darah.
+              <br><br>
+              Jika Anda secara teratur mengkonsumsi terlalu banyak alkohol atau memiliki ketergantungan alkohol,
+              mencari bantuan untuk mengurangi jumlah yang Anda minum atau berhenti sama sekali.
+              Alkohol dapat meningkatkan tekanan darah.
+              Jika Anda menderita diabetes, dokter Anda mungkin memeriksa tekanan darah Anda setidaknya empat kali setiap tahun.
+              Jika Anda menderita diabetes dan tekanan darah tinggi, disarankan agar Anda memantau sendiri di rumah, mencatatnya
+              bacaan,
+              dan bagikan dengan dokter Anda atau kunjungi klinik terdekat untuk pemeriksaan.
+            </p>
+          </div>
+          <div class="col-lg-4 ">
+            <img src="img/lady-laughing.jpg" alt="" class="img-responsive">
+          </div>
+        </div>
+      </div>
+      <class="row">
+        <div id="related-content">
+          <hr>
+          <h6>
+           Konten Terkait
+          </h6>
+          <ul>
+            <li><a href="healthy-living/diet-and-nutrition.html">Diet & Nutrition</a></li>
+            <li><a href="health-tools/bmi-calculator">BMI Calculator </a></li>
+            <li><a href="healthy-living/physical-activity.html">Physical Activity </a></li>
+            <li><a href="diabetes-hypertension-link.html">Link between Diabetes & Hypertension </a> </a></li>
+
+          </ul>
+        </div>
+        </class>
+    </div>
+  </div>
+  </div>
+  <div class="footer-section">
     <div class="footer">
       <div class="container">
         <div class="row">
@@ -498,17 +513,21 @@
           <div class="col-md-3 text-center">
             <h6 class="footer-headings">SHOW YOUR SUPPORT</h6>
 
-            <a href="get-involved.html"><button style="margin-bottom:10px"  type="button" class="btn btn-primary btn-lg btn-lg_body">DONATE</button></a>
+            <a href="get-involved.html"><button style="margin-bottom:10px" type="button"
+                class="btn btn-primary btn-lg btn-lg_body">DONATE</button></a>
           </div>
           <div class="col-md-5">
             <div class="row">
               <div class="col-xs-12 col-sm-5">
                 <h6 class="text-center footer-headings">STAY CONNECTED</h6>
                 <div class="text-center">
-                  <a href="https://www.facebook.com"><i id="social-fb" class="fa fa-facebook-square fa-2x social"></i></a>
+                  <a href="https://www.facebook.com"><i id="social-fb"
+                      class="fa fa-facebook-square fa-2x social"></i></a>
                   <a href="https://twitter.com"><i id="social-tw" class="fa fa-twitter-square fa-2x social"></i></a>
-                  <a href="https://plus.google.com/"><i id="social-gp" class="fa fa-google-plus-square fa-2x social"></i></a>
-                  <a href="mailto:diatension@gmail.com"><i id="social-em" class="fa fa-envelope-square fa-2x social"></i></a>
+                  <a href="https://plus.google.com/"><i id="social-gp"
+                      class="fa fa-google-plus-square fa-2x social"></i></a>
+                  <a href="mailto:diatension@gmail.com"><i id="social-em"
+                      class="fa fa-envelope-square fa-2x social"></i></a>
                 </div>
               </div>
               <div class="col-xs-12 col-sm-7">
@@ -541,8 +560,8 @@
       </div>
     </div>
   </div>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 
 </html>
