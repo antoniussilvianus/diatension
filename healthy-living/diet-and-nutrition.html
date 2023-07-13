@@ -1,296 +1,386 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>DIATENSION - A Diabetes and Hypertension Awareness Website</title>
+  <link rel="icon" href="../img/logonew.png">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <link rel="stylesheet" href="../css/index.css">
-  <link href="https://fonts.googleapis.com/css?family=Signika:400" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css?family=Signika:400" rel="stylesheet">
 </head>
+
 <body>
-    
+
+
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../index.html"><img src="../img/logonew.png"
+          alt="Diatension spelt out written on top of heart"></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="../index.html">Home<span class="sr-only">(current)</span></a></li>
+
+        <!--LINK ONE-->
+        <li class="dropdown">
+          <a href="../about-diabetes.html" role="button" aria-haspopup="true" aria-expanded="false">About Diabetes <span
+              class="caret"></span></a>
+              <ul class="dropdown-menu">
+              <li><a href="../about-diabetes/types-of-diabetes.html">Jenis Diabetes</a></li>
+              <li><a href="../about-diabetes/diabetes-risks.html">Faktor Risiko</a></li>
+              <li><a href="../about-diabetes/signs-and-symptoms.html">Tanda/Gejala</a></li>
+              <li><a href="../about-diabetes/treatment-and-medication.html">Pengobatan/Pengobatan</a></li>
+              </ul>
+        </li>
         
-        <nav class="navbar navbar-inverse navbar-fixed-top"> 
-                     <!-- Brand and toggle get grouped for better mobile display -->
-                     <div class="navbar-header">
-                       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">	
-                         <span class="sr-only">Toggle navigation</span>
-                         <span class="icon-bar"></span>
-                         <span class="icon-bar"></span>
-                         <span class="icon-bar"></span>
-                       </button>
-                       <a class="navbar-brand" href="../index.html"><img src="../img/logoSmall.png" alt="Diatension spelt out written on top of heart"></a>
-                     </div>
-               
-                     <!-- Collect the nav links, forms, and other content for toggling -->
-                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                       <ul class="nav navbar-nav">
-                         <li ><a href="../index.html">Home<span class="sr-only">(current)</span></a></li>
-               
-                         <!--LINK ONE-->
-                         <li class="dropdown">
-                           <a href="../about-diabetes.html"  role="button" aria-haspopup="true" aria-expanded="false">About Diabetes <span class="caret"></span></a>
-                           <ul class="dropdown-menu">
-                             <li><a href="../about-diabetes/types-of-diabetes.html">Types of Diabetes</a></li>
-                             <li><a href="../about-diabetes/diabetes-risks.html">Risk Factors</a></li>
-                             <li><a href="../about-diabetes/signs-and-symptoms.html">Signs/Symptoms</a></li>
-                             <li><a href="../about-diabetes/treatment-and-medication.html">Treatment/Medications</a></li>
-                           </ul>
-                         </li>
-               
-                         <!--LINK TWO-->
-                       <li class="dropdown">
-                           <a href="#" role ="button" aria-haspopup="true" aria-expanded="false">Diabetes and You <span class="caret"></span></a>
-                           <ul class="dropdown-menu">
-                             <li><a href="../diabetes-and-you/type1-diabetes.html">Living with Type 1</a></li>
-                             <li><a href="../diabetes-and-you/type2-diabetes.html">Living with Type 2</a></li>
-                             <li><a href="../diabetes-and-you/gestational-diabetes.html">Living with Gestational Diabetes</a></li>
-                             <li><a href="../diabetes-and-you/prediabetes.html">Living with Prediabetes</a></li>
-                             <li role="separator" class="divider"></li>
-                             <li><a href="../diabetes-and-you/kids-teens-diabetes.html">Diabetes in Kids and Teens</a></li>
-                             <li role="separator" class="divider"></li>
-                             <li><a href="../diabetes-and-you/control-diabetes.html">Take Control of Diabetes</a></li>
-                          </ul>
-                        </li>
-               
-                           <!--LINK THREE-->
-                           <li><a href="../hypertension.html">Hypertension</a></li>
-               
-                           <!-- LINK FOUR -->
-                           <li class="dropdown active">
-                               <a href="#"  role="button" aria-haspopup="true" aria-expanded="false">Healthy Living <span class="caret"></span></a>
-                               <ul class="dropdown-menu">
-                                 <li class="active"><a href="diet-and-nutrition.html">Diet and Nutrition</a></li>
-                                 <li><a href="../healthy-living/physical-activity.html">Physical Activity</a></li>
-                               </ul>
-                             </li>
-             
-                             <!--LINK FIVE-->
-                       <li class="dropdown">
-                               <a href="#"  role="button" aria-haspopup="true" aria-expanded="false">Health Tools <span class="caret"></span></a>
-                               <ul class="dropdown-menu">
-                                 <li><a href="../health-tools/bmi-calculator.html">BMI Calculator</a></li>
-                                 <li><a href="../health-tools/calorie-calculator.html">Calorie Calculator</a></li>
-                               </ul>
-                             </li>
-                 
-                             <li><a href="../get-involved.html">Get Involved</a></li>
-                         </ul>
-             
-                         <form class="navbar-form navbar-left">
-                               <div class="form-group">
-                                 <input type="text" class="form-control" placeholder="Search">
-                               </div>
-                               <button type="submit" class="btn btn-primary">Submit</button>
-                         </form>
-                     </div>
-                     <!-- /.navbar-collapse -->
-                     </nav>
 
-                     <!--body content -->
-                     <div class="body-content-types body-content-about-diabetes">
-                         <div class="container">
-                             <div class="row">
-                                    <img src="../img/food.jpg" class="img-responsive center-block">
-                                    <div class="page-header">
-                                            <h1>DIET AND NUTRITION - <small style="color:#262626;">  Managing diabetes and Hypertension through nutrition</small></h1>
-                                        </div>
-                                        <h3>Nutrition is an important part of a healthy lifestyle when you have diabetes and hypertension. What you choose to eat, how much you eat, and when you eat are all important in keeping your blood glucose level in the range that your health care team recommends. </h3>
-                            
-                           <h3>WHAT DO I EAT IF I HAVE DIABETES AND HYPERTENSION?</h3> 
-                           <p>
-                            You may worry that having diabetes and hypertension means going without foods you enjoy. The good news is that you can still eat your favorite foods, but you might need to eat smaller portions or enjoy them less often.<br> Your health care team will help create a diabetes meal plan for you that meets your needs and likes.
-<br>The key to eating with diabetes is to eat a variety of healthy foods from all food groups, in the amounts your meal plan outlines.</p>
-<div class="col-md-12">
-    <div class="row">
-        <div class="col-md-6">
-            <p>The food groups are:
-            <ul>
-                <li>Vegetables <ul><li>Non starchy: includes broccoli, carrots, greens, peppers, and tomatoes </li> <li>	Starchy: includes potatoes, corn, and green peas</li></ul></li>
-                <li>Grains - At least half of your grains for the day should be whole grains. <ul><li>Includes wheat, rice, oats, cornmeal, barley and qunoa. Examples are bread, pasta, cereal and tortillas</li></ul></li> <li>Protein <ul><li>Lean meat</li><li>Chicken or turkey without the skin</li><li>Fish</li><li>Eggs</li><li>Nuts and peanuts</li><li>Dried beans and certain peas such as chick peas and split peas</li><li>Meat substitutes such as tofu</li></ul></li> <li>Diary - non fat or low fat <ul><li>Milk or lactose free milk if you're lactose intolerant</li><li>Yogurt</li><li>Cheese</li></ul></li> <li>Fruits - Includes oranges, melon, berries, apples, bananas and grapes</li>
-            </ul> 
-                <p>Eat foods with heart healthy fats, which can be gotten from :
-                  <ul>
-                      <li>Oils that are liquid at room temperature, such as canola and olive oil</li>
-                      <li>Nuts and seeds</li>
-                      <li>Heart healthy fish such as salmon, tuna, and mackerel</li>
-                      <li>Avocado</li>
-                  </ul>
-              </p>
+        <!--LINK TWO-->
+        <li class="dropdown">
+          <a href="#" role="button" aria-haspopup="true" aria-expanded="false">Diabetes and You <span
+              class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="../diabetes-and-you/type1-diabetes.html">Hidup dengan Tipe 1</a></li>
+             <li><a href="../diabetes-and-you/type2-diabetes.html">Hidup dengan Tipe 2</a></li>
+             <li><a href="../diabetes-and-you/gestational-diabetes.html">Hidup dengan Diabetes Gestasional</a></li>
+             <li><a href="../diabetes-and-you/prediabetes.html">Hidup dengan Pradiabetes</a></li>
+             <li role="separator" class="divider"></li>
+             <li><a href="../diabetes-and-you/kids-teens-diabetes.html">Diabetes pada Anak dan Remaja</a></li>
+             <li role="separator" class="divider"></li>
+             <li><a href="../diabetes-and-you/control-diabetes.html">Kendalikan Diabetes</a></li>
+          </ul>
+        </li>
+
+        <!--LINK THREE-->
+        <li><a href="../hypertension.html">Hipertensi</a></li>
+
+        <!-- LINK FOUR -->
+        <li class="dropdown active">
+          <a href="#" role="button" aria-haspopup="true" aria-expanded="false">Hidup Sehat <span
+            class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li class="active"><a href="diet-and-nutrition.html">Diet dan Nutrisi</a></li>
+             <li><a href="../healthy-living/physical-activity.html">Aktivitas Fisik</a></li>
+          </ul>
+        </li>
+
+        <!--LINK FIVE-->
+        <li class="dropdown">
+          <a href="#" role="button" aria-haspopup="true" aria-expanded="false">Alat Kesehatan <span
+            class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="../health-tools/bmi-calculator.html">Kalkulator BMI</a></li>
+             <li><a href="../health-tools/calorie-calculator.html">Kalkulator Kalori</a></li>
+          </ul>
+        </li>
+
+        <li><a href="../get-involved.html">Get Involved</a></li>
+      </ul>
+
+      <form class="navbar-form navbar-left">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
         </div>
-        <div class="col-md-6">
-            <br>
-            <img src="../img/oils.jpg" class="img-responsive center-block">
-              Use oils when cooking food instead of butter, cream, shortening, lard, or stick margarine. 
-              Choose healthy fats such as from nuts, seeds and olive oil.
-        </div>
-        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
     </div>
-  </div>
-    <h3>FOOD AND DRINKS TO BE LIMITED</h3>
-    <p>
-            Foods and drinks to limit include:
-            <ul>
-                <li>Fried foods and other foods high in saturated fat and trans fat</li>
-                <li>Foods high in salt, also called sodium</li>
-                <li>Sweets such as baked goods, candy, and ice cream</li>
-                <li>Beverages with added sugars such as juice, regular soda, and regular sports or energy drinks</li>
-            </ul>
-            Drink water instead of sweetened beverages. Consider using a sugar substitute in your coffee or tea.
-            <br> If you drink alcohol, drink moderately. No more than one drink a day if you’re a woman or two drinks a day if you’re a man.<br> If you use insulin or diabetes medicines that increase the amount of insulin your body makes, alcohol can make your blood glucose level drop too low.<br> This is especially true if you haven’t eaten in a while. It’s best to eat some food when you drink alcohol.
-    </p>
-    <h3>WHEN TO EAT</h3>
-    <p>
-            Some people with diabetes need to eat at about the same time each day.<br> Others can be more flexible with the timing of their meals. Depending on your diabetes medicines or type of insulin, you may need to eat the same amount of carbohydrates at the same time each day.<br> If you take “mealtime” insulin, your eating schedule can be more flexible.
-            <br>If you use certain diabetes medicines or insulin and you skip or delay a meal, your blood glucose level can drop too low. Ask your health care team when you should eat and whether you should eat before and after physical activity.
-            
-    </p>
-    <h3>FOOD QUANTITY INTAKE</h3>
-    <p>Eating the right amount of food will also help you in managing your blood glucose level and your weight. 
-      Your health care team can help you figure out how much food and how many calories you should eat daily.
-      <br>Look up how many calories are in what you eat and drink with our <a href="../health-tools/calorie-calculator.html">Calorie Calculator</a>
-      <br><br>   
-      <div class="col-md-12">
-          <div class="row">
-              <div class="col-md-6">
-                <img src="../img/oatmeal.jpg" class="img-responsive">
-                <br>
-              </div>
-              <div class="col-md-6">
-                <img src="../img/fruits.jpg" class="img-responsive">
-                <br>
-              </div>
-          </div>
-        </div> 
-    </p>
-    <h3>WEIGHT LOSS PLAN</h3>
-    <p>If you are overweight or obese, work with your health care team to create a weight-loss plan.<br>
-    You can find out if you're overweight or obese with our <a href="../health-tools/bmi-calculator.html">BMI Calculator</a><br>
-    To lose weight, you need to eat fewer calories and replace less healthy foods with foods lower in calories, fat, and sugar.
-    </p>
-    <h3>MEAL PLANNING METHODS</h3>
-<p>
-        Two common ways to help you plan how much to eat if you have diabetes are the plate method and carbohydrate counting, also called carb counting.
-        <br> Make sure you check with your health care team about the method that’s best for you.
-</p>
-<h3>THE PLATE METHOD</h3>
-<p>The plate method helps you control your portion sizes. You don’t need to count calories. The plate method shows the amount of each food group you should eat. This method works best for lunch and dinner.
-     <br>   Use a 9-inch plate. Put non starchy vegetables on half of the plate, meat or other protein on one-fourth of the plate and grains or other starch on the last one-fourth.<br> Starches include starchy vegetables such as corn and peas. You also may eat a small bowl of fruit or a piece of fruit, and drink a small glass of milk as included in your meal plan.
-     <img src="../img/Plate.jpg" class="img-responsive center-block">
-     Your daily eating plan also may include small snacks between meals.
-    </p>
-    <h3>PORTION SIZES</h3>
-    <p>
-        <ul>
-            <li>You can use everyday objects or your hand to judge the size of a portion.</li>
-            <li>1 serving of meat or poultry is the palm of your hand or a deck of cards</li>
-            <li>1 3-ounce serving of fish is a checkbook</li>
-            <li>1 serving of cheese is six dice</li>
-            <li>1/2 cup of cooked rice or pasta is a rounded handful or a tennis ball</li>
-            <li>1 serving of a pancake or waffle is a DVD</li>
-            <li>2 tablespoons of peanut butter is a ping-pong ball</li>
-        </ul>
-    </p>
+    <!-- /.navbar-collapse -->
+  </nav>
 
-        <h3>CARBOHYDRATE COUNTING</h3>
+  <!--body content -->
+  <div class="body-content-types body-content-about-diabetes">
+    <div class="container">
+      <div class="row">
+        <img src="../img/food.jpg" class="img-responsive center-block">
+        <div class="page-header">
+          <h1>DIET DAN NUTRISI - <small style="color:#262626;"> Mengelola diabetes dan Hipertensi melalui
+              nutrisi</small></h1>
+        </div>
+        <h3>Nutrisi adalah bagian penting dari gaya hidup sehat ketika Anda menderita diabetes dan hipertensi. Apa yang
+          kamu
+          pilihan makan, berapa banyak Anda makan, dan kapan Anda makan semuanya penting dalam menjaga kadar glukosa
+          darah Anda tetap dalam
+          rentang yang direkomendasikan oleh tim perawatan kesehatan Anda. </h3>
+
+        <h3>APA YANG SAYA MAKAN JIKA SAYA MENGALAMI DIABETES DAN HIPERTENSI?</h3>
         <p>
-                Carbohydrate counting involves keeping track of the amount of carbohydrates you eat and drink each day.<br> Because carbohydrates turn into glucose in your body, they affect your blood glucose level more than other foods do.<br> Carb counting can help you manage your blood glucose level. If you take insulin, counting carbohydrates can help you know how much insulin to take.
-       <br> The right amount of carbohydrates varies by how you manage your diabetes, including how physically active you are and what medicines you take, if any.<br> Your health care team can help you create a personal eating plan based on carbohydrate counting.
-         <br>The amount of carbohydrates in foods is measured in grams. To count carbohydrate grams in what you eat, you’ll need to:
-         <ul>
-             <li>Learn which foods have carbohydrates</li>
-             
-             <li> Learn to estimate the number of grams of carbohydrate in the foods you eat</li>
-             
-             <li>Add the grams of carbohydrate from each food you eat to get your total for each meal and for the day</li>
-         </ul>
-
-         Most carbohydrates come from starches, fruits, milk, and sweets. Try to limit carbohydrates with added sugars or those with refined grains, such as white bread and white rice.<br> Instead, eat carbohydrates from fruit, vegetables, whole grains, beans, and low-fat or nonfat milk.
-         Choose healthy carbohydrates, such as fruit, vegetables, whole grains, beans, and low-fat milk, as part of your diabetes meal plan.
-    </p>
-    <br>
-         <div class="col-md-12">
-            <div class="row">
-                <div class="col-md-6">
-                  <img src="../img/wholegrain.jpg" class="img-responsive">
-                  <br>
-                </div>
-                <div class="col-md-6">
-                  <img src="../img/wheetabix.jpg" class="img-responsive">
-                  <br>
-                </div>
+          Anda mungkin khawatir bahwa menderita diabetes dan hipertensi berarti tidak mengonsumsi makanan yang Anda
+          sukai. Kabar baiknya adalah itu
+          Anda masih bisa makan makanan favorit Anda, tetapi Anda mungkin perlu makan dengan porsi lebih kecil atau
+          lebih sedikit menikmatinya
+          sering.<br> Tim perawatan kesehatan Anda akan membantu membuat rencana makan diabetes untuk Anda yang memenuhi
+          kebutuhan Anda dan
+          suka.
+          <br>Kunci makan penderita diabetes adalah makan berbagai makanan sehat dari semua kelompok makanan, dalam
+          jumlah yang banyak
+          garis besar rencana makan Anda.
+        </p>
+        <div class="col-md-12">
+          <div class="row">
+            <div class="col-md-6">
+              <p>Kelompok makanan tersebut adalah:
+              <ul>
+                <li>Sayuran <ul>
+                    <li>Non tepung: termasuk brokoli, wortel, sayuran hijau, paprika, dan tomat </li>
+                    <li> Bertepung: termasuk kentang, jagung, dan kacang hijau</li>
+                  </ul>
+                </li>
+                <li>Biji-bijian - Setidaknya setengah dari biji-bijian Anda untuk hari itu harus berupa biji-bijian
+                  utuh. <ul>
+                    <li>Termasuk gandum, beras, oat, tepung jagung, jelai, dan qunoa. Contohnya adalah roti, pasta,
+                      sereal dan
+                      tortilla</li>
+                  </ul>
+                </li>
+                <li>Protein <ul>
+                    <li>Daging tanpa lemak</li>
+                    <li>Ayam atau kalkun tanpa kulit</li>
+                    <li>Ikan</li>
+                    <li>Telur</li>
+                    <li>Kacang dan kacang tanah</li>
+                    <li>Kacang kering dan kacang polong tertentu seperti buncis dan kacang polong</li>
+                    <li>Pengganti daging seperti tahu</li>
+                  </ul>
+                </li>
+                <li>Buku harian - tanpa lemak atau rendah lemak <ul>
+                    <li>Susu atau susu bebas laktosa jika Anda tidak toleran laktosa</li>
+                    <li>Yogurt</li>
+                    <li>Keju</li>
+                  </ul>
+                </li>
+                <li>Buah - Termasuk jeruk, melon, beri, apel, pisang, dan anggur</li>
+              </ul>
+              <p>Makan makanan dengan lemak sehat jantung, yang bisa didapat dari :
+              <ul>
+                <li>Minyak yang cair pada suhu kamar, seperti kanola dan minyak zaitun</li>
+                <li>Kacang-kacangan dan biji-bijian</li>
+                <li>Ikan yang menyehatkan jantung seperti salmon, tuna, dan mackerel</li>
+                <li>Alpukat</li>
+              </ul>
+              </p>
             </div>
-          </div>     
+            <div class="col-md-6">
+              <br>
+              <!-- <img src="../img/oils.jpg" class="img-responsive right-block"> -->
+              Gunakan minyak saat memasak makanan, bukan mentega, krim, shortening,atau margarin stik.
+              Pilih lemak sehat seperti dari kacang-kacangan, biji-bijian dan minyak zaitun.
+            </div>
+          </div>
+        </div>
+      </div>
+      <h3>MAKANAN DAN MINUMAN HARUS DIBATASI</h3>
+      <p>
+        Makanan dan minuman yang harus dibatasi antara lain:
+      <ul>
+        <li>Makanan gorengan dan makanan lain yang tinggi lemak jenuh dan lemak trans</li>
+        <li>Makanan tinggi garam, disebut juga sodium</li>
+        <li>Permen seperti makanan yang dipanggang, permen, dan es krim</li>
+        <li>Minuman dengan gula tambahan seperti jus, soda biasa, dan minuman olahraga atau berenergi biasa</li>
+      </ul>
+      Minumlah air sebagai pengganti minuman manis. Pertimbangkan untuk menggunakan pengganti gula dalam kopi atau teh
+      Anda.
+      <br> Jika Anda minum alkohol, minumlah secukupnya. Tidak lebih dari satu gelas sehari jika Anda seorang wanita
+      atau dua gelas sehari jika
+      Anda laki-laki.<br> Jika Anda menggunakan insulin atau obat diabetes yang meningkatkan jumlah insulin yang
+      dihasilkan tubuh Anda,
+      alkohol dapat membuat kadar glukosa darah Anda turun terlalu rendah.<br> Hal ini terutama berlaku jika Anda belum
+      pernah makan di a
+      ketika. Yang terbaik adalah makan beberapa makanan saat Anda minum alkohol.
+      </p>
+      <h3>KAPAN HARUS MAKAN</h3>
+      <p>
+        Beberapa penderita diabetes perlu makan pada waktu yang sama setiap hari.<br> Orang lain bisa lebih fleksibel
+        dengan
+        waktu makan mereka. Bergantung pada obat diabetes atau jenis insulin Anda, Anda mungkin perlu makan yang sama
+        jumlah karbohidrat pada waktu yang sama setiap hari.<br> Jika Anda mengonsumsi insulin "waktu makan", jadwal
+        makan Anda bisa
+        menjadi lebih fleksibel.
+        <br>Jika Anda menggunakan obat diabetes atau insulin tertentu dan Anda melewatkan atau menunda makan, kadar
+        glukosa darah Anda bisa
+        turun terlalu rendah. Tanyakan kepada tim perawatan kesehatan Anda kapan Anda harus makan dan apakah Anda harus
+        makan sebelum dan sesudah fisik
+        aktivitas.
+
+      </p>
+      <h3>ASUPAN JUMLAH MAKANAN</h3>
+       <p>Makan makanan dalam jumlah yang tepat juga akan membantu Anda mengelola kadar glukosa darah dan berat badan.
+         Tim perawatan kesehatan Anda dapat membantu Anda mengetahui berapa banyak makanan dan berapa banyak kalori yang harus Anda makan setiap hari.
+         <br>Cari berapa banyak kalori dalam apa yang Anda makan dan minum dengan <a
+           href="../health-tools/calorie-calculator.html">Kalkulator Kalori</a>
+        <br><br>
+      <div class="col-md-12">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="../img/oatmeal.jpg" class="img-responsive">
+            <br>
+          </div>
+          <div class="col-md-6">
+            <img src="../img/fruits.jpg" class="img-responsive">
+            <br>
+          </div>
+        </div>
+      </div>
+      </p>
+      <h3>RENCANA PENURUNAN BERAT</h3>
+       <p>Jika Anda kelebihan berat badan atau obesitas, bekerjalah dengan tim perawatan kesehatan Anda untuk membuat rencana penurunan berat badan.<br>
+         Anda dapat mengetahui apakah Anda kelebihan berat badan atau obesitas dengan <a href="../health-tools/bmi-calculator.html">BMI kami
+           Kalkulator</a><br>
+         Untuk menurunkan berat badan, Anda perlu makan lebih sedikit kalori dan mengganti makanan yang kurang sehat dengan makanan rendah kalori, lemak,
+         dan gula.
+       </p>
+       <h3>METODE PERENCANAAN MAKAN</h3>
+       <p>
+         Dua cara umum untuk membantu Anda merencanakan berapa banyak makan jika Anda menderita diabetes adalah metode piring dan karbohidrat
+         menghitung, juga disebut penghitungan karbohidrat.
+         <br> Pastikan Anda menanyakan kepada tim perawatan kesehatan Anda tentang metode yang terbaik untuk Anda.
+       </p>
+       <h3>METODE PELAT</h3>
+       <p>Metode piring membantu Anda mengontrol ukuran porsi. Anda tidak perlu menghitung kalori. Metode pelat menunjukkan
+         jumlah setiap kelompok makanan yang harus Anda makan. Metode ini bekerja paling baik untuk makan siang dan makan malam.
+         <br> Gunakan piring 9 inci. Taruh sayuran non-tepung di setengah piring, daging atau protein lain di seperempatnya
+         piring dan biji-bijian atau pati lainnya pada seperempat terakhir.<br> Pati termasuk sayuran bertepung seperti
+         jagung dan kacang polong. Anda juga boleh makan semangkuk kecil buah atau sepotong buah, dan minum segelas kecil susu
+         termasuk dalam rencana makan Anda.
+         <img src="../img/Plate.jpg" class="img-responsive center-block">
+         Rencana makan harian Anda juga dapat mencakup camilan kecil di antara waktu makan.
+       </p>
+       <h3>UKURAN PORSI</h3>
+      <p>
+        <ul>
+          <li>Anda dapat menggunakan benda sehari-hari atau tangan Anda untuk menilai ukuran porsi.</li>
+          <li>1 porsi daging atau unggas adalah telapak tangan Anda atau setumpuk kartu</li>
+          <li>1 porsi 3 ons ikan adalah buku cek</li>
+          <li>1 porsi keju sama dengan enam dadu</li>
+          <li>1/2 cangkir nasi atau pasta adalah segenggam bulat atau bola tenis</li>
+          <li>1 porsi panekuk atau wafel adalah DVD</li>
+          <li>2 sendok makan selai kacang adalah bola ping-pong</li>
+        </ul>
+      </p>
+
+      <h3>PENGHITUNGAN KARBOHIDRAT</h3>
+      <p>
+        Penghitungan karbohidrat melibatkan pencatatan jumlah karbohidrat yang Anda makan dan minum setiap hari.<br>
+        Karena karbohidrat berubah menjadi glukosa dalam tubuh Anda, mereka lebih memengaruhi kadar glukosa darah Anda daripada makanan lain
+        lakukan.<br> Penghitungan karbohidrat dapat membantu Anda mengelola kadar glukosa darah. Jika Anda mengonsumsi insulin, hitung karbohidrat
+        dapat membantu Anda mengetahui berapa banyak insulin yang harus diambil.
+        <br> Jumlah karbohidrat yang tepat bervariasi menurut cara Anda mengelola diabetes, termasuk seberapa aktif secara fisik
+        Anda dan obat apa yang Anda minum, jika ada.<br> Tim perawatan kesehatan Anda dapat membantu Anda menciptakan pola makan pribadi
+        rencana berdasarkan penghitungan karbohidrat.
+        <br>Jumlah karbohidrat dalam makanan diukur dalam gram. Untuk menghitung gram karbohidrat dalam apa yang Anda makan,
+        Anda harus:
+        <ul>
+          <li>Pelajari makanan mana yang mengandung karbohidrat</li>
+ 
+          <li> Belajar memperkirakan jumlah gram karbohidrat dalam makanan yang Anda makan</li>
+ 
+          <li>Tambahkan gram karbohidrat dari setiap makanan yang Anda makan untuk mendapatkan jumlah total untuk setiap makanan dan untuk hari itu</li>
+        </ul>
+
+        Sebagian besar karbohidrat berasal dari pati, buah-buahan, susu, dan permen. Cobalah untuk membatasi karbohidrat dengan tambahan gula atau
+        yang mengandung biji-bijian olahan, seperti roti putih dan nasi putih.<br> Sebagai gantinya, makanlah karbohidrat dari buah,
+        sayuran, biji-bijian, kacang-kacangan, dan susu rendah lemak atau tanpa lemak.
+        Pilih karbohidrat sehat, seperti buah, sayuran, biji-bijian, kacang-kacangan, dan susu rendah lemak, sebagai bagian dari diet Anda
+        rencana makan diabetes.
+      </p>
+      <br>
+      <div class="col-md-12">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="../img/wholegrain.jpg" class="img-responsive">
+            <br>
+          </div>
+          <div class="col-md-6">
+            <img src="../img/wheetabix.jpg" class="img-responsive">
+            <br>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
- </div>
- 
-                  
-         
-                     <div class="footer-section">
-                            <div class="footer">
-                              <div class="container">
-                                <div class="row">
-                                  <div class="col-md-3 text-center">
-                                    <h6 class="footer-headings">QUICK LINKS</h6>
-                                    <ul>
-                                      <li><a href="../about-diabetes.html"> Diabetes</a> </li>
-                                      <li><a href="../hypertension.html"> Hypertension</a> </li>
-                                      <li><a href="diet-and-nutrition.html"> Diet & Nutrition</a> </li>
-                                      <li><a href="../health-tools/bmi-calculator.html"> BMI Calculator</a> </li>
-                                      <li><a href="../health-tools/calorie-calculator.html"> Calorie Calculator</a> </li>
-                                    </ul>
-                                  </div>
-                                  <div class="col-md-3 text-center">
-                                    <h6 class="footer-headings">SHOW YOUR SUPPORT</h6>
-                                    <a href="../get-involved.html"><button style="margin-bottom:10px"  type="button" class="btn btn-primary btn-lg btn-lg_body">DONATE</button></a>
-                                  </div>
-                                  <div class="col-md-5">
-                                    <div class="row">
-                                      <div class="col-xs-12 col-sm-5">
-                                        <h6 class="text-center footer-headings">STAY CONNECTED</h6>
-                                        <div class="text-center">
-                                          <a href="https://www.facebook.com"><i id="social-fb" class="fa fa-facebook-square fa-2x social"></i></a>
-                                          <a href="https://twitter.com"><i id="social-tw" class="fa fa-twitter-square fa-2x social"></i></a>
-                                          <a href="https://plus.google.com/"><i id="social-gp" class="fa fa-google-plus-square fa-2x social"></i></a>
-                                          <a href="mailto:diatension@gmail.com"><i id="social-em" class="fa fa-envelope-square fa-2x social"></i></a>
-                                        </div>
-                                      </div>
-                                      <div class="col-xs-12 col-sm-7">
-                                        <h6 class="text-center footer-headings">SIGN UP FOR OUR NEWSLETTER</h6>
-                                        <form action="#" class="form-inline">
-                                          <input type="email" class="form-control" placeholder="Email" Address="">
-                                          <button type="submit" class="btn btn-primary btn-search form-control">Submit</button>
-                                        </form>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        
-                          <div class="footer-bottom">
-                            <div class="container">
-                              <div class="row center-block">
-                                <div class="col-sm-6">
-                                  <div class="copyright-text">
-                                    <p>Copyright &copy; 2018 STYLE All Rights Reserved</p>
-                                  </div>
-                                </div>
-                                <div class="col-sm-6">
-                                  <div class="copyright-text ">
-                                    <p> <a href="../index.html">Home</a> | <a href="#">Privacy</a> |<a href="#">Terms & Conditions</a> </p>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                    
-                  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-                  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-                </body>
-                </html>
+  </div>
+
+
+
+  <div class="footer-section">
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 text-center">
+            <h6 class="footer-headings">QUICK LINKS</h6>
+            <ul>
+              <li><a href="../about-diabetes.html"> Diabetes</a> </li>
+              <li><a href="../hypertension.html"> Hypertension</a> </li>
+              <li><a href="diet-and-nutrition.html"> Diet & Nutrition</a> </li>
+              <li><a href="../health-tools/bmi-calculator.html"> BMI Calculator</a> </li>
+              <li><a href="../health-tools/calorie-calculator.html"> Calorie Calculator</a> </li>
+            </ul>
+          </div>
+          <div class="col-md-3 text-center">
+            <h6 class="footer-headings">SHOW YOUR SUPPORT</h6>
+            <a href="../get-involved.html"><button style="margin-bottom:10px" type="button"
+                class="btn btn-primary btn-lg btn-lg_body">DONATE</button></a>
+          </div>
+          <div class="col-md-5">
+            <div class="row">
+              <div class="col-xs-12 col-sm-5">
+                <h6 class="text-center footer-headings">STAY CONNECTED</h6>
+                <div class="text-center">
+                  <a href="https://www.facebook.com"><i id="social-fb"
+                      class="fa fa-facebook-square fa-2x social"></i></a>
+                  <a href="https://twitter.com"><i id="social-tw" class="fa fa-twitter-square fa-2x social"></i></a>
+                  <a href="https://plus.google.com/"><i id="social-gp"
+                      class="fa fa-google-plus-square fa-2x social"></i></a>
+                  <a href="mailto:diatension@gmail.com"><i id="social-em"
+                      class="fa fa-envelope-square fa-2x social"></i></a>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-7">
+                <h6 class="text-center footer-headings">SIGN UP FOR OUR NEWSLETTER</h6>
+                <form action="#" class="form-inline">
+                  <input type="email" class="form-control" placeholder="Email" Address="">
+                  <button type="submit" class="btn btn-primary btn-search form-control">Submit</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <div class="container">
+      <div class="row center-block">
+        <div class="col-sm-6">
+          <div class="copyright-text">
+            <p>Copyright &copy; 2018 STYLE All Rights Reserved</p>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="copyright-text ">
+            <p> <a href="../index.html">Home</a> | <a href="#">Privacy</a> |<a href="#">Terms & Conditions</a> </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+
+</html>

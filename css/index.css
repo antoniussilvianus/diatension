@@ -47,8 +47,8 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
   margin-top: -14px;
   margin-left: 40px;
   margin-right: 10px;
-  width: 80px; /* menentukan lebar logo */
-  height: auto; /* menyesuaikan tinggi logo secara proporsional */
+  width: 50px; /* menentukan lebar logo */
+  height: 50px; /* menyesuaikan tinggi logo secara proporsional */
 }
 
 /* CUSTOMIZING THE CAROUSEL
@@ -56,30 +56,83 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 
 /* Carousel base class */
 
-.carousel {
-  /*height: 500px;*/
-  margin-bottom: 0px;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-/* Since positioning the image, we need to help out the caption */
-.carousel-caption {
-  z-index: 10;
+/* Atur ukuran gambar dan caption */
+/* Atur ukuran gambar dan caption */
+/* Atur ukuran gambar dan caption */
+/* Atur ukuran gambar dan caption */
+/* Atur ukuran gambar dan caption */
+/* Atur ukuran gambar dan caption */
+.carousel-inner img {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  height: auto;
 }
 
-/* Declare heights because of positioning of img element */
-.carousel .item {
+.carousel-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel-caption h1 {
+  font-size: 2em;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 20px;
+  top: 80%;
+  transform: translateY(-80%);
+  }
+
+.carousel-caption p {
+  font-size: 2em;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 20px;
+  top: 80%;
+  transform: translateY(-80%);
+}
+
+/* Atur warna tanda indikator */
+.carousel-indicators li {
+  background-color: #ccc;
+}
+
+.carousel-indicators .active {
+  background-color: #000;
+}
+
+/* Atur warna tombol kontrol */
+.carousel-control {
+  color: #fff;
   text-align: center;
-  position: center;
-  width: 90%;
-  height: 90%;
+  text-shadow: none;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel-control:hover,
+.carousel-control:focus {
+  color: #fff;
+  text-decoration: none;
+  outline: none;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel-control.left {
+  left: 0;
+}
+
+.carousel-control.right {
+  right: 0;
 }
 
 /*breadcrumb */
 .breadcrumb {
   background: rgba(245, 245, 245, 0);
+  border: 0px solid rgba(245, 245, 245, 1);
   border-radius: 25px;
   display: block;
 }
@@ -93,7 +146,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 .page-header {
   padding-bottom: 2px;
   margin: 40px 0 50px;
-  border-bottom: rgba(245, 245, 245, 0);
+  border-bottom: 1px solid #eee;
 }
 
 .page-header-physical {
@@ -119,6 +172,43 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
   border: 0px solid black;
   /* height: 800px; */
 }
+.container {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.container img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-left: -210px; /* atau sesuaikan dengan nilai yang diinginkan */
+}
+
+.container2 {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.container2 img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-left: -100px;
+  margin-right: auto;
+}
+
 
 .body-content-about-diabetes {
   margin-top: 70px;
@@ -144,6 +234,11 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
   text-align: justify;
   letter-spacing: 0.5px;
   line-height: 30px;
+}
+
+.img-header {
+  display: block;
+  margin: 0 auto;
 }
 
 .statistics {
@@ -211,6 +306,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 .thumbnail {
   border-top-color: #337ab7;
   border-top: 4px solid;
+  text-decoration: none;
 }
 
 .last-thumbnail {
@@ -220,16 +316,11 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 
 .caption h5 {
   color: #337ab7;
+  text-align: center;
 }
 
 .row1 {
   margin-top: 30px;
-}
-
-.img-responsive {
-  display: block;
-  max-width: 100%;
-  height: 250px;
 }
 
 .img-header {
@@ -261,6 +352,10 @@ hr {
 
 #related-content h6 {
   text-decoration: underline;
+}
+
+.caption {
+  margin-bottom: 20px;
 }
 
 .embed-responsive-4by3 {
