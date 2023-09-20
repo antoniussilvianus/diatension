@@ -6,6 +6,7 @@ body {
 p {
   font-size: 16px;
 }
+
 h6 {
   font-size: 1.125rem;
 }
@@ -40,6 +41,7 @@ h1 {
 ul.nav li.dropdown:hover ul.dropdown-menu {
   display: block;
 }
+
 /* LOGO 
 -------------------*/
 
@@ -47,8 +49,10 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
   margin-top: -14px;
   margin-left: 40px;
   margin-right: 10px;
-  width: 50px; /* menentukan lebar logo */
-  height: 50px; /* menyesuaikan tinggi logo secara proporsional */
+  width: 50px;
+  /* menentukan lebar logo */
+  height: 50px;
+  /* menyesuaikan tinggi logo secara proporsional */
 }
 
 /* CUSTOMIZING THE CAROUSEL
@@ -85,7 +89,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
   margin-bottom: 20px;
   top: 80%;
   transform: translateY(-80%);
-  }
+}
 
 .carousel-caption p {
   font-size: 2em;
@@ -172,6 +176,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
   border: 0px solid black;
   /* height: 800px; */
 }
+
 .container {
   margin-top: 0;
   margin-bottom: 0;
@@ -187,7 +192,8 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
   margin-bottom: 0;
   padding-top: 0;
   padding-bottom: 0;
-  margin-left: -210px; /* atau sesuaikan dengan nilai yang diinginkan */
+  margin-left: -210px;
+  /* atau sesuaikan dengan nilai yang diinginkan */
 }
 
 .container2 {
@@ -213,19 +219,23 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 .body-content-about-diabetes {
   margin-top: 70px;
 }
+
 .body-content-control-diabetes {
   max-width: 100%;
   margin-top: 70px;
 }
+
 .body-content-link-between-diabetes-and-hypertension {
   margin-top: 70px;
 }
+
 .body-content-gestational-diabetes {
   max-width: 100%;
   margin-top: 70px;
   max-height: 100%;
   margin-left: 70px;
 }
+
 .page-header-gestational {
   margin-left: 70px;
 }
@@ -254,7 +264,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
   margin-top: 60px;
 }
 
-.breadcrumb > li + li:before {
+.breadcrumb>li+li:before {
   content: "\003E";
 }
 
@@ -294,6 +304,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 .row-1 {
   margin-bottom: 30px;
 }
+
 .btn-lg_body {
   letter-spacing: 2px;
 }
@@ -383,6 +394,7 @@ i {
   color: #fff;
   width: max-content;
 }
+
 .footer h5 {
   font-size: 22px;
   font-weight: 700;
@@ -390,6 +402,7 @@ i {
   position: relative;
   padding-bottom: 16px;
 }
+
 .footer h5:after {
   content: "";
   display: block;
@@ -409,6 +422,7 @@ i {
 .footer-headings {
   color: #d3d7d9;
 }
+
 /* .footer a {
 color:# ;
 
@@ -429,6 +443,7 @@ color:# ;
   -moz-transform: scale(1.1);
   -o-transform: scale(1.1);
 }
+
 .social {
   -webkit-transform: scale(0.8);
   /* Browser Variations: */
@@ -447,12 +462,15 @@ Multicoloured Hover Variations
 #social-fb:hover {
   color: #3b5998;
 }
+
 #social-tw:hover {
   color: #4099ff;
 }
+
 #social-gp:hover {
   color: #d34836;
 }
+
 #social-em:hover {
   color: #f39c12;
 }
@@ -530,14 +548,14 @@ font-family: 'Raleway', sans-serif;
   color: #aece61;
 }
 
-.navbar-inverse .navbar-nav > li > a {
+.navbar-inverse .navbar-nav>li>a {
   /*the color of nav bar when hovered over*/
   color: #d3d7d9;
 }
 
-.navbar-inverse .navbar-nav > .active > a,
-.navbar-inverse .navbar-nav > .active > a:focus,
-.navbar-inverse .navbar-nav > .active > a:hover {
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:focus,
+.navbar-inverse .navbar-nav>.active>a:hover {
   color: #fff;
   background-color: #008fd5;
 }
@@ -547,9 +565,9 @@ font-family: 'Raleway', sans-serif;
   border-color: #080808;
 }
 
-.navbar-inverse .navbar-nav > .open > a,
-.navbar-inverse .navbar-nav > .open > a:focus,
-.navbar-inverse .navbar-nav > .open > a:hover {
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:focus,
+.navbar-inverse .navbar-nav>.open>a:hover {
   color: #008fd5;
   background-color: #080808;
 }
