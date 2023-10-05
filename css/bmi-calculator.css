@@ -1,35 +1,34 @@
-
-span{
-	color: #213368 ;
+span {
+    color: #213368;
 }
 
-.form-bmi{
-	border-right: 100px;
-	/* border: 5px solid #213368 ;*/
-    padding: 30px; 
-    
+.form-bmi {
+    border-right: 100px;
+    /* border: 5px solid #213368 ;*/
+    padding: 30px;
+
 
 }
 
-.form-border{
+.form-border {
     border: 10px solid #213368;
     padding: 10px 30px;
 }
 
-.form-group{
+.form-group {
     border-right: 100px;
-    
+
 
 }
 
-.bmi-img{
+.bmi-img {
     height: 400px;
     width: 450px;
-    margin-top:30px;
+    margin-top: 30px;
 
 }
 
-.img-weight2{
-    height:400px;
+.img-weight2 {
+    height: 400px;
     width: 650px;
 }
